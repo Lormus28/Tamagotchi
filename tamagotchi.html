@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tamagotchi</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+  </head>
+  <body>
+  <div id="block">
+    <div id="blockImage">
+      <img src="img/blue.jpg" class="pet" id="pet" alt="image">
+    </div>
+    <div class="side"><h2><strong>Status</strong></h2>
+      Hambre:<div id="hungry" class="bar"> 100%</div>
+      Sueño:<div id="sleep" class="bar"> 100%</div>
+      Higiene:<div id="hygiene" class="bar"> 100%</div>
+      Diversion:<div id="fun" class="bar"> 100%</div>
+    </div>
+    <div id="bloqueBtn">
+      <p><button id="buttonEat" class="button" onclick="Eat()">Comer</button></p>
+      <p><button id="buttonSleep" class="button" onclick="Sleep()">Dormir</button></p>
+      <p><button id="buttonBath" class="button" onclick="Bath()">Baño</button></p>
+      <p><button id="buttonJump" class="button" onclick="Jump()">Brincar</button></p>
+    </div>
+    <h3><div id="message"></div></h3>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>

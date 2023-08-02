@@ -1,0 +1,63 @@
+body{
+  overflow: hidden;
+}
+
+.pet{
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.block{
+  width: 400px;
+}
+
+#blockImage{
+  padding: 0px 0px;
+  position: relative;
+  left:200px;
+  top: 100px;
+}
+
+.button{
+  padding: 6px 50px;
+  width: 148px;
+  background: coral;
+  color: #f2f2f2;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: #222;
+}
+
+.button:active{
+  background: #777;
+}
+
+.button:disabled{
+  background: #222;
+}
+
+.bar{
+  width: 100px;
+  background-color: aqua;
+  margin: 5px 10px;
+  border-radius:4px;
+  padding: 3px 3px;
+}
+
+.side{
+  float:left;
+  margin: 10px 25px;
+  width: 120px;
+}
+
+#bloqueBtn{
+  padding: 115px 0px;
+}
+
+#message{
+  color: red;
+}
